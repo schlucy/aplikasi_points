@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aplikasi_points *.css
+recursive-include aplikasi_points *.csv
+recursive-include aplikasi_points *.html
+recursive-include aplikasi_points *.ico
+recursive-include aplikasi_points *.js
+recursive-include aplikasi_points *.json
+recursive-include aplikasi_points *.md
+recursive-include aplikasi_points *.png
+recursive-include aplikasi_points *.py
+recursive-include aplikasi_points *.svg
+recursive-include aplikasi_points *.txt
+recursive-exclude aplikasi_points *.pyc
